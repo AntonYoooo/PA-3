@@ -3,7 +3,7 @@ This repository involves programming problems that utilizes the Pandas Library.
 
 ## Problems
 #### 1. CSV DataFrame Loader and Row Viewing
-The main goal for this problem is to load the csv file named cars into data frames using panda, and display the first and last 5 rows of the resulting cars. 
+The main goal for this problem is to load the csv file named 'cars.csv' into data frames using panda, and display the first and last 5 rows of the resulting cars. 
 
 #### 2. Slicing, Subsetting, and Indexing
 After successfully loading `cars.csv`, the following instructions should then be executed via utilization of subsetting, slicing, and indexing operations:

@@ -51,7 +51,7 @@ df.loc[df['Model']=='Mazda RX4'] #Filters and prints the row where its column is
 
 #### 2.c. Camaro Z28 Cyl
 ```python
-df.loc[df['Model']=='Camaro Z28', ['Model', 'cyl']] #Filters and prints the 'Model' and 'cyl' columns for the row were 'Model' is 'Camaro Z28'
+df.loc[df['Model']=='Camaro Z28', ['Model', 'cyl']] #Filters and prints the 'Model' and 'cyl' columns for the row where 'Model' is 'Camaro Z28'
 ```
 **Output:** 
 

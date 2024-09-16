@@ -15,7 +15,7 @@ After successfully loading `cars.csv`, the following instructions should then be
 ## Solutions
 The following programs are the solutions to the previously stated problems. 
 
-### 1. Dataframe Loader and Row viewing
+#### 1. Dataframe Loader and Row viewing
 ```python
 import pandas as pd #syntax to access pandas library 
 
@@ -28,7 +28,7 @@ print("\nThe Last five rows are: \n", df.tail()) #prints the last 5 rows of the 
 
 ![image](https://github.com/user-attachments/assets/5e779d79-ce55-4697-9cdb-7cf69efdd72d)
 
-### 2.a. Odd-numbered columns 
+#### 2.a. Odd-numbered columns 
 ```python
 #selects the first 5 rows of the dataframe
 #specifically skips every 2 columns, starting from index 0 
@@ -40,7 +40,7 @@ odd_columns #prints the odd columns
 
 ![image](https://github.com/user-attachments/assets/cf85ac7d-18d5-4a7d-b595-c4e17e65bb2a)
 
-### 2.b. Mazda RX4
+#### 2.b. Mazda RX4
 ```python
 df.loc[df['Model']=='Mazda RX4'] #Filters and prints the row where its column is 'Mazda RX4'
 ```
@@ -49,7 +49,7 @@ df.loc[df['Model']=='Mazda RX4'] #Filters and prints the row where its column is
 
 ![image](https://github.com/user-attachments/assets/63a0ad3b-e608-45d0-8e07-808103442491)
 
-### 2.c. Camaro Z28 Cyl
+#### 2.c. Camaro Z28 Cyl
 ```python
 df.loc[df['Model']=='Camaro Z28', ['Model', 'cyl']] #Filters and prints the 'Model' and 'cyl' columns for the row were 'Model' is 'Camaro Z28'
 ```
@@ -58,7 +58,7 @@ df.loc[df['Model']=='Camaro Z28', ['Model', 'cyl']] #Filters and prints the 'Mod
 
 ![image](https://github.com/user-attachments/assets/377f097c-fb54-48d0-8cba-d3fce9395a37)
 
-### 2.d. Cylinders and Gear Types 
+#### 2.d. Cylinders and Gear Types 
 ```python
 df.loc[df['Model'].isin(['Mazda RX4 Wag', 'Ford Pantera L', 'Honda Civic']), ['Model', 'cyl', 'gear']] #Filters and prints the columns 'Model', 'cyl', and 'gear' of the specified cars 
 ```
